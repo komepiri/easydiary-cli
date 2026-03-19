@@ -1,0 +1,32 @@
+{
+  "name": "easydiary-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "easydiary": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.tsx",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ink": "^6.0.0",
+    "ink-multiline-input": "^0.1.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^19.0.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript-eslint": "^7.18.0",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}
