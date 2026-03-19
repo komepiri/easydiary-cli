@@ -1,6 +1,6 @@
 # EasyDiary CLI
 
-Qwert氏が作成したEasyDiaryの日記を閲覧・投稿するための CLI です。React Inkで構築しています。
+qwert氏が作成したEasyDiaryの日記を閲覧・投稿するための CLI です。React Inkで構築しています。
 
 ## Features
 - 日記一覧の閲覧（ページング対応）
